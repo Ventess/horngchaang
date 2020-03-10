@@ -1,0 +1,15 @@
+/* REVISE CSS  */
+   
+/* 用戶內容css reset */
+.Content-body p:not(.first-p){
+  padding:initial;
+  letter-spacing:initial;
+  color:initial;
+  font-size:inherit;line-height: inherit;font: inherit;
+  
+}
+/* 側邊選單寬度與 .sidepanel 相同*/
+.sideA:link, .sideA:visited{ width:100%; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+/* 自訂欄位下拉選單最大寬度設定 */
+select.cf{max-width:180px;}
+ 

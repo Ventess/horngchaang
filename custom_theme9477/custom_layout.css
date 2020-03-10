@@ -1,0 +1,244 @@
+/*310旅遊住宿-盆栽黃色版面*/
+
+
+/** global **/
+/* 全站通用屬性 */
+html{
+margin:0;
+padding:0;
+background: url(http://www.justeat758.com/custom_image/2900048_175334345409_2.jpg) top left #673a1f repeat-x;
+}
+
+body{
+color: #333;
+font-size:12px;
+margin:0;
+padding:0;
+font-family:Arial, Verdana, Helvetica, sans-serif;
+/* background: url() 0% 100% repeat-x; */
+overflow-x: auto;
+}
+
+p{
+margin:3px;
+}
+img {
+border:0;
+background:none;
+}
+select{
+font-family: Arial, Verdana;
+}
+th{ background:#f3f3f3; border-bottom:1px solid #f3f3f3; border-top-width: 1px; border-right-width: 1px; border-left-width: 1px;;
+}
+
+/** layout **/
+
+body {
+   margin: 0; 
+   font-size: 10pt; 
+   background: url(http://www.justeat758.com/custom_image/2900048_175334345409_2.jpg) top left #673a1f repeat-x;
+}
+
+#container {
+   width: 930px;                
+   margin: 0 auto;
+   background: url(http://www.justeat758.com/custom_image/C03.jpg) top left #673a1f repeat-x;
+}
+
+#header {
+    height: 154px;              
+    background-color: #FFE0E0;  
+    width: 930px;    
+    float: left;
+    background:url(http://www.justeat758.com/custom_image/0002.jpg) no-repeat;                            
+}
+
+#blogname {
+   height: 100px;
+   font-size: 20px;
+   font-weight: bold;
+   margin: 40px 0px -26px 30px;
+   color: #fff;
+} 
+ 
+#blogTitle {
+   font-size: 12px;            
+   font-weight: normal;
+}
+
+#menu { 
+   height: 40px;
+   background:transparent;
+   padding: 0 10px;
+   margin-left: 200px;
+}
+
+#menu ul {
+   padding: 0;
+   height: 25px;
+   margin: 0;
+   border:none;
+}
+
+#menu ul li {
+   float: left;
+   display: block;
+   background: url(http://www.justeat758.com/custom_theme9477/menu_line.gif) right no-repeat;
+}
+
+#menu ul li input { margin:4px 0 0 10px; }
+
+#menu ul li.menuL {
+   width: 200px;
+   display: block;
+}
+
+#menu ul li .menuA {
+   height: 20px;
+   display: block;
+   border:none;
+   background:none;
+   text-align: center;
+   font-size:13px;
+   color:#cf9b66;
+   width:inherit;
+   padding: 6px 12px;
+   margin:0;
+   line-height:20px;
+}
+
+#menu ul li .menuA:hover { font-weight:bold; }
+
+#menu ul li a {
+   color: #ff0000;
+   text-decoration: none;
+}
+
+#menu ul li a:hover { }
+
+#Right {
+   clear: both;
+}
+
+#mainContent {
+   float: right;  
+   width: 723px;  
+   background:url(http://www.justeat758.com/custom_image/content_bg.jpg) no-repeat;
+   margin:-10px 0px 0px 0;
+   min-height:400px;
+}
+
+.Content {
+   margin:6px 0 8px 25px;
+   border:none;
+   width:665px;
+   background:transparent;
+}
+
+
+.ContentAuthor { margin:0; padding:-20px 20px 0; font-size:15px; border:1px dashed transparent; border-bottom:none; }
+.sideA:link,.sideA:visited{text-decoration:none;padding-left:16px;background:no-repeat 2px 3px;height:16px;overflow:hidden;display:block;margin-bottom:2px;width:170px;background:url(arrow.gif) 2px 3px no-repeat; }
+.sideA:hover{text-decoration:none;padding-left:0px;background:no-repeat 2px -13px;height:20px;overflow:hidden;background:#2e170f; no-repeat 2px -13px;}
+
+
+a:link,a:visited{
+  text-decoration:none;
+  color:#000000; 
+}
+
+a:hover{
+  color:#ffffff;
+}
+
+.menuA:link,.menuA:visited{
+  float:left;
+  height:28px;
+  text-align:center;
+  padding:0 4px;
+  text-decoration:none;
+  color:#fff 
+  line-height:210%;   
+} 
+
+#menu ul li a { 
+   color:#0000FF;
+}
+
+.menuA {
+   background-repeat:repeat;
+}
+
+.ContentTitle { 
+   margin:0;
+   background:ransparent url;
+   font-size:13px;
+   color:#000000;
+   height:50px;
+   padding:5px 0 0 0px;
+   line-height:50px \9;
+}
+
+.Content-body { border:1px dashed transparent; padding:15px; background:transparent; overflow: hidden; border-top:none; }
+.Content-body p {
+   margin:0;
+   color:#6b3109;
+   line-height:22px;  
+}
+
+.Content-body a {
+   color:#6b3109;
+}
+.Content-body a:hover {
+   color:#ffffff;
+}
+
+#sidebar a {
+   color:#2e170f;
+   text-decoration:none;
+
+}
+
+#sidebar a.sideA{color: #ffffff;}
+#sidebar a:hover {
+   color:#ffffff;
+   font-weight:bold;
+}
+.Ptitle {
+   background:url() no-repeat;
+   height:32px;
+   margin:0;
+   padding:2px 0 0 15px;
+   line-height:26px;
+   line-height:30px \9;
+   font-weight:normal;
+   color:#2e170f;
+}
+
+#sidebar {
+   width:170px;
+   float:left;
+   margin-left:27px;
+   margin-top:-0px;
+   background:transparent;}
+
+#innersidebar {
+   border-color:#000000;
+   border-width:1px;
+   margin:10px 0 0 0;
+}
+
+#foot {
+   height: 60px;              
+   padding-top: 20px;         
+   color: #fff;            
+   background:#240100; 
+   text-align: center;        
+} 
+
+#foot a { color:#FFF; }
+
+.Pcontent { margin-bottom:10px; }
+/* 把layout.css的字距設定都覆蓋 */
+#mainContent .Content-desc {line-height:normal;}
+/*310旅遊住宿-盆栽黃色版面*/

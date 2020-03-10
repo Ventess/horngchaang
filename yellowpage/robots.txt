@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /images/
+Disallow: /skin/
+Disallow: /script/
+Sitemap: http://www.justeat758.com/yellowpage/sitemap.xml

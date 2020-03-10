@@ -1,0 +1,398 @@
+/*695食品餐飲-野餐草地版面*/
+
+/* 野餐草地版面 */
+
+
+/** global **/
+/* 全站通用屬性 */
+html{
+
+
+}
+body{   
+color: #555;
+font-size:12px;
+margin:0;
+padding:0;
+font-family:Arial, Verdana, Helvetica, sans-serif;
+background:url(http://www.justeat758.com/custom_theme9493/bg.png) center repeat-y #d9ceaf;
+overflow-x: auto;
+}
+p{
+margin:3px;
+}
+img {
+border:0;
+background:
+}
+select{
+font-family: Arial, Verdana;
+}
+th{ background:#f3f3f3; border-bottom:1px solid #ccc; border-top-width: 1px; border-right-width: 1px; border-left-width: 1px;
+}
+
+/** link **/
+/* 泛用 */
+a:link,a:visited{
+text-decoration:none;
+color:#fff;
+}
+a:hover{
+color:#cddf47;
+}
+.menuA:link,.menuA:visited{
+font-size:15px;
+font-weight:bold;
+height:40px;
+text-align:center;
+padding:3px 7px 2px;
+text-decoration:none;
+color:#fff;
+line-height:140%;
+border:0px solid #0060C2;
+}
+.menuA:hover{
+color:#cddf47;
+}
+/*文章標題*/
+.titleA:link,.titleA:visited{
+text-decoration:none;
+font-family:verdana;
+font-size:13px;
+font-weight:bold;
+text-align:left;
+color:#6B5643;
+padding:3px;
+}
+.titleA:hover{color:#b09d8c;text-decoration:none;}
+.sideA:link,.sideA:visited{text-decoration:none;padding-left:16px;background:no-repeat 2px 3px;height:16px;overflow:hidden;display:block;margin-bottom:3px;width:170px;background:url(http://www.justeat758.com/custom_theme9493/arrow.gif) 2px 3px no-repeat; color:#666; }
+.sideA:hover{text-decoration:none;padding-left:16px;background:no-repeat 2px -13px;height:16px;overflow:hidden;background:url(http://www.justeat758.com/custom_theme9493/arrow.gif) no-repeat 2px -13px; color:#999; }
+.CategoryA:link,.CategoryA:visited{text-decoration:none;}
+.CategoryA:hover{text-decoration:none;}
+
+.more:link,.more:visited{background:no-repeat;margin:5px;text-decoration:none;}
+.more:hover{background:no-repeat 0 -15px;}
+.blogsetA:link,.blogsetA:visited{padding:0 9px 4px 16px ; background:no-repeat;text-decoration:none;}
+.mp3A:link,.mp3A:visited{padding:0 0 4px 16px; background:no-repeat;text-decoration:none;}
+.collA:link,.collA:visited{padding:0 0 4px 16px; background:no-repeat;text-decoration:none;}
+.aboutA:link,.aboutA:visited{padding:0 0 4px 16px; background:no-repeat;text-decoration:none;}
+.normalA:link,.normalA:visited{padding:0 12px 4px 16px; background:no-repeat;text-decoration:none;}
+.listA:link,.listA:visited{padding:0 0 4px 16px; background:no-repeat;text-decoration:none;}
+.commentA:link,.commentA:visited{padding:0 0 4px 14px; background:no-repeat -2px 3px;text-decoration:none;}
+/*邊欄功能選項標題*/
+.Ptitle a:link,.Ptitle a:visited{color:#6b5643;}
+.Ptitle a:hover{color:#ab9682;}
+/* 底部版權聲明連結 */
+#container #foot a{
+color:#666;
+padding:0px 2px;
+}
+#container #foot a:hover{
+color:#999;
+padding:0px 2px;
+}
+
+/** layout **/
+
+/*---主體樣式---*/
+#container{ 
+width:960px;
+margin:0 auto;
+color:#666;
+background:#fdf8ea;
+padding:0;
+text-align:center;}
+/*---頂部樣式---*/
+#container #header{
+background:url(http://www.justeat758.com/custom_theme9493/header.jpg) center top no-repeat;
+height:245px;
+width:960px;
+margin:0 auto 0;
+padding:0 auto 0;
+list-style-image: none;
+}
+#container #header #blogname{
+font-family:verdana;
+padding:35px 50px 0 60px;
+font-size:30px;
+line-height:110%;
+color:#000;
+font-weight: bold;
+text-align:right;
+background:;
+height:55px; }
+#container #header #blogname #blogTitle{
+font-size:11px;margin:0px 0px 0px 0px; font-weight:bolder; height:16px;padding:0;}
+#container #header #menu{
+font-size: 11px;
+height:20px;
+padding:0px;
+margin:0px;
+text-align:left;
+/*visibility:hidden;*/
+}
+#container #header #menu #Left{
+width:0px;
+float:left;
+}
+#container #header #menu #Right{
+width:0px;
+float:right;
+}
+#container #header #menu ul{
+list-style:none;
+margin:97px 20px 0 15px;
+*margin:97px 20px 0 15px;
+_margin:79px 18px 0px 0px;
+padding:0;
+height:px;
+float:right;
+}
+#container #header #menu ul li{
+float:left;
+height:20px;
+margin:0 4px;
+}
+.menuL{
+color: white;
+background-image: none;
+background-repeat: no-repeat;
+background-attachment: scroll;
+width:0;
+padding:0;
+}
+.menuR{
+color: white;
+background-image: none;
+background-repeat: no-repeat;
+background-attachment: scroll;
+width:8px;
+padding:0;
+}
+.menuDiv{
+color: white;
+background-image:none;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0 0;
+width:4px;
+padding:0;
+}
+/*---內容樣式/容器---*/
+#container #Tbody{
+width:960px;
+margin:0 auto;
+text-align:left;
+position:relative;
+}
+/*---邊欄/工具區塊--*/
+#sidebar{
+color: #555;
+width:260px;
+margin:0 0 0 27px;
+padding:0 0 18px;
+text-align:center;
+float:left;
+}
+#innersidebar{}
+#sidebar-topimg{height:31px; width:260px; background:url(http://www.justeat758.com/custom_theme9493/topimg.png) 32px 0 no-repeat; }
+#sidebar-bottomimg{height:5px;width:260px;overflow:hidden;}
+/*---工具箱樣式--*/
+.sidepanel{ width:260px; margin:0 auto!important; margin:0px; padding: 0; text-align: center; }
+/*邊欄功能選項標題*/
+.Ptitle{
+/* height:30px; */
+font-family:Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px; 
+font-weight:bold;
+color:#6b5643;
+background:url(http://www.justeat758.com/custom_theme9493/sidebar.png) top center no-repeat;
+padding:13px 15px 7px;
+padding:15px 15px 6px \9;
+margin:0;
+letter-spacing:1px;
+}
+.Pcontent{
+text-align:left;
+padding:0;
+margin:5px 0 10px;
+line-height:160%;
+overfolw:hidden;
+}
+.Pfoot{
+height:0px;
+border-bottom:0px #96ABB8 solid;
+padding:0 0 0px 0;
+*padding:0 0 0px 0;
+_padding:0 0 0px 0;
+line-height:100%;
+*line-height:160%;
+_line-height:100%;
+margin:0px 0px 20px 0px;
+*margin:0px 0px 20px 0px;
+_margin:-15px 0px 10px 0px;}
+/*---主內容--*/
+#mainContent{margin:0 5px 0 5px;  text-align:center;display:inline;}
+#innermainContent{ width: 632px; margin-right:20px; overflow:visible;float:right;background:transparent;margin-top:20px;}
+#mainContent-topimg{ height:0; overflow:hidden; }
+#mainContent-bottomimg{ background-image:; background-repeat: no-repeat; background-attachment: scroll; background-position: 0 0; height:10px; overflow:hidden; }
+.content-width{ width:632px; margin:auto;background:transparent;}
+/*---主內容頁數--*/
+.pageContent{margin:0 auto;padding:3px;text-align:left;height:18px;color:#000;}
+.NavTitle{float:left;}
+.page{padding-right:5px;height:18px;}
+.page ul{list-style:none;margin:0px;padding:0px}
+.page ul li{float:left;padding:0px 3px 0px 3px;}
+.page ul li.PageL {width:9px;height:16px;}
+.page ul li.PageR {width:9px;height:16px;}
+.PageLbutton{background:transparent;width:9px;height:16px;display:block;}
+.PageRbutton{background:transparent;width:9px;height:16px;display:block;}
+/*---內容區塊--*/
+.Content{margin:0 auto;padding:0;font-family:Arial, Verdana;background:;}
+/*---網誌標題區塊--*/
+.Content-top{
+height:55px;
+color:#003C80;
+text-align:left;
+overflow:hidden;
+background:url(http://www.justeat758.com/custom_theme9493/content_top_bg.png) top center no-repeat;
+}
+.Content-top .ContentLeft{}
+.Content-top .ContentRight{}
+/*文章標題區塊*/
+.Content-top .ContentTitle{
+font: 13px arial;
+color:#76624f;
+margin: 0;
+padding:3px 30px 0 33px;
+padding-top:5px \9;
+
+}
+
+.Content-top .ContentAuthor{ 
+font: 11px verdana;
+color:#76624f;
+padding:10px 10px 0 0; 
+text-align:right; 
+margin-top:-25px;
+letter-spacing:1px;
+height:35px;
+display:block;
+border-left:0px #000045 double;
+border-right:0px #000045 double;
+border-top:0px #000045 double;
+}
+
+
+/*---網誌內容區塊--*/
+.Content-body{
+margin:0;
+padding:0 8px 0 13px;
+overflow:hidden;
+text-align:left;
+line-height:150%;
+background:url(content-body_bg.png) center repeat-y;
+border-left:0px #000045 double;
+border-right:0px #000045 double;
+border-bottom:0px #000045 double;
+}
+.Content-body a { line-height:22px; }
+.Content-body p{padding:4px;letter-spacing:0.1em;}
+.linkover{padding:0 0px;}
+/*---網誌內文底部--*/
+.Content-bottom{ text-align:right; background:url(content_bottom_bg.png) center bottom no-repeat; height:42px; margin-bottom: 10px; padding:10px 20px 0; }
+.Content-bottom .ContentBLeft{width:0px;float:left;}
+.Content-bottom .ContentBRight{width:0px;float:right;}
+.Content-bottom span { margin-right:15px; }
+
+/*---網誌其他訊息--*/
+.Content-Info {margin:0px;width:578px;padding:4px 8px;background:url(Content-body_bg.gif) top center repeat-y;}
+.Content-Info .InfoAuthor{text-align:left;background:transparent;}
+.Content-Info .InfoOther{float:right;text-align:right;background:transparent;}
+/*--回應區塊--*/
+.comment{text-align:left;margin:0px 12px 4px 12px;BACKGROUND:#EEE;}
+.commentinfo{font-family:arial;;font-size:12px;color:#444;}
+.commenttop{ font: 12px Arial normal; color:#000;border:0px; padding:4px; background:url(../26%E8%B3%BC%E7%89%A9%E5%A5%B3%E5%AD%A9%E7%89%88%E9%9D%A2/commenttop_bg.gif) bottom left #FFF no-repeat;height:30px;}
+.commentcontent{padding:10px;line-height:140%;overflow:hidden;color:#000;background:url(../26%E8%B3%BC%E7%89%A9%E5%A5%B3%E5%AD%A9%E7%89%88%E9%9D%A2/commentcontent_bg.gif) #EEE center bottom no-repeat;}
+/* .commentcontent a{background:#fff;} */
+/*---UBB區塊--*/
+.UBBPanel{ background:#f1f1f1; border-top: 1px solid #b4a79c; border-right: 1px solid #b4a79c; border-bottom: 1px solid #b4a79c; border-left-style: solid; border-left-width: 3px; }
+.UBBTitle{padding:4px;border-bottom:1px dotted #b4a79c;}
+.UBBContent{padding:6px;line-height:160%;}
+.UBBContent TEXTAREA {width:448px;margin-bottom:2px;}
+:link.UBBLink,:visited.UBBLink{font-size:12px;font-family:Arial,verdana;}
+/*---訊息欄--*/
+#MsgContent{ color: #000; width:450px; padding:0; margin:auto;}
+#MsgContent #MsgHead{background:;padding:4px;color:#969696;text-align:center;}
+#MsgContent #MsgBody{padding:4px;line-height:180%;color:#969696;}
+
+.LDialog{border:solid 1px #cccccc;margin:3px auto;padding:1px;}
+.LDialog .LHead{background:gray;padding:1px;color:#fff;text-align:center;}
+.LDialog .LBody{padding:4px;line-height:200%;}
+
+
+/* 訊息欄圖示及文字 */
+.MessageText{height:50px;margin-right:38px;}
+.MessageIcon{background:url(../../images/Message.jpg) no-repeat;width:48px;height:48px;float:left;}
+.ErrorIcon{background:url(../../images/Error.jpg) no-repeat;width:48px;height:48px;float:left;}
+.WarningIcon{background:url(../../images/Warning.jpg) no-repeat;width:48px;height:48px;float:left;}
+.QuestionIcon{background:url(../../images/Question.jpg) no-repeat;width:48px;height:48px;float:left;}
+/*---底部樣式---*/
+#container #foot{
+font:11px arial;
+color:#666;
+height:70px;
+padding:25px 20px 0;
+letter-spacing:1px;
+clear:both;
+background:url(http://www.justeat758.com/custom_theme9493/footer.jpg) repeat-x bottom;}
+/*---文件上傳欄位樣式---*/
+.attachmentBody{
+margin:0;font-size:12px;background:#f1f1f1
+}
+
+.list_seperator { margin:18px 0; border-top:1px dotted #E9DDCF; }
+
+
+.Content a { color:#6B5643; }
+.Content a:hover { color:#b09d8c; }
+
+/*----------------------------------首頁新增的CSS----------------------------------*/
+#idx_header { height:245px; background:url(http://www.justeat758.com/custom_theme9493/header.jpg) no-repeat center top; position:relative; }
+#idx_logo { margin:10px 0 0 25px; float:left; width:250px; text-align:left; color:#fff; }
+#idx_menu { margin:35px 12px 0 0; padding:0; list-style:none; float:right; }
+#idx_menu li { margin-right:5px; display:inline-block; *display:inline; }
+#idx_menu li a { font-size:15px; text-decoration:none; }
+#idx_menu li a:hover { font-weight:bold; }
+#idx_content { padding-left:10px; }
+#idx_content .idx_intro { width:290px; margin:0 5px 5px 15px; float:left; border-bottom:1px solid #e9ddcf; height:300px; text-align:left; font-size:13px; line-height:22px; position:relative; }
+#idx_content .idx_intro div.proditem{height:115px;}
+#idx_content .idx_intro div.imgdiv{  text-align: center;  background:#FFF;height:106px;width:106px;overflow:hidden;float:left; border:1px solid #ccc; margin:0 10px 0 0; line-height:106px;}
+#idx_content .idx_intro div.imgdiv span{display:inline-block;height:53%;} 
+#idx_content .idx_intro img { max-height:102px;max-width:102px;vertical-align : middle; }
+.idx_intro .Ptitle { background:url(http://www.justeat758.com/custom_theme9493/sidebar2.png) no-repeat center top; line-height:18px; margin-bottom:10px; text-align:center; padding-top:6px; padding-bottom:10px; margin-top:10px; }
+.idx_intro span.intro_content { font-weight:normal;display:inline; overflow:hidden; word-wrap: break-word;word-break: break-all;}
+.idx_intro span.more { display:block; text-align:right; font-size:12px; color:#9b8a72; position:absolute; bottom:5px; right:-5px; }
+.idx_intro span.more a { color:#9b8a72; text-decoration:none; }
+.idx_intro span.more a:hover { text-decoration:underline; }
+.idx_intro p { margin:2px 0; height:22px; overflow:hidden; }
+.idx_intro p a { color:#555; text-decoration:none;  }
+.idx_intro p a:hover { text-decoration:underline; }
+.idx_intro p.part { height:20px; }
+.idx_intro .news { text-decoration:none;padding-left:16px; background:no-repeat 2px 3px; height:16px; display:block; margin-bottom:10px; background:url(http://www.justeat758.com/custom_theme9493/arrow.gif) 2px 3px no-repeat; background:url(http://www.justeat758.com/custom_theme9493/arrow.gif) 2px 0 no-repeat \9; line-height:17px; color:#555; }
+.idx_intro .news:hover { background:url(http://www.justeat758.com/custom_theme9493/arrow.gif) no-repeat 2px -13px;background:url(http://www.justeat758.com/custom_theme9493/arrow.gif) no-repeat 2px -16px \9; color:#999; }
+.idx_intro .news b { float:left; font-weight:normal; overflow:hidden; text-overflow:ellipsis; }
+.idx_intro .news span { float:right; }
+.footer-corpinfo { float:left; text-align:left; width:400px; margin-bottom:10px; }
+.footer-feed { margin-top:5px; line-height:20px; }
+a.pagenavi { color:#FFF; padding:1px 5px; background:#888; letter-spacing:1px; }
+a.pagenavi:hover { color:#ccc; }
+#toolbar { position:absolute; top:10px; right:25px; top:15px \9; color:#fff; }
+/* 把layout.css的字距設定都覆蓋 */
+#mainContent .Content-desc {line-height:normal;}
+
+
+
+
+/* 野餐草地版面 */
+/*695食品餐飲-野餐草地版面*/

@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ 
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<title>宏昶貿易有限公司</title>
+
+   <link rel='stylesheet' href='style.css?ver=1497576220' type='text/css' /> 
+<link rel='stylesheet' href='jquery.mobile-1.0a3_orange.css?ver=1497576220' type='text/css' /> 
+<script type='text/javascript' src='js/jquery-1.5.min.js?ver=1497576220'></script> 
+<script type='text/javascript' src='js/jquery.mobile-1.0a4.1.js?ver=1497576220'></script> 
+<script type='text/javascript' src='js/mobile.js?ver=1497576220'></script> 
+<script type='text/javascript' src='js/html5.js?ver=1497576220'></script> 
+<script type='text/javascript' src='js/jquery.client.js?ver=1497576220'></script> 
+
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true&region=zh_TW"></script>
+<script type="text/javascript" src="js/gears_init.js?ver=1497576220"></script>
+<script type='text/javascript' src='https://toolkit.url.com.tw/counter/tracer.php?token=Naz2ka44M3z0Udg1a9HbR906c9Dbofv1L130dd3ed6y750q2d2X4N607ZaW5Fc0dNzU4LmNvbS95ZWxsb3dwYWdlTW9iaWxlLw=='></script> 
+<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+<script type="text/javascript">
+
+  
+function getPositionSuccess(position)
+{
+	var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+	var myOptions = {
+		zoom: 15,
+		center: latlng,
+		mapTypeControl: false,
+		navigationControlOptions: {
+			style: google.maps.NavigationControlStyle.SMALL
+		},
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+ 	$.getJSON("https://toolkit.url.com.tw/preferent/index.php?serverid=79835&corp_pos=&latlng="+position.coords.latitude+","+position.coords.longitude+"&jsoncallback=?",
+	function(data){  
+		$('.get_preferent').html(data.content); 
+	});
+}
+
+function getPositionSuccessGet(position)
+{
+        var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+        var myOptions = {
+                zoom: 15,
+                center: latlng,
+                mapTypeControl: false,
+                navigationControlOptions: {
+                        style: google.maps.NavigationControlStyle.SMALL
+                },
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+ 	$.getJSON("http://toolkit.url.com.tw/preferent/index.php?serverid=79835&corp_pos=&latlng="+position.coords.latitude+","+position.coords.longitude+"&get=1&jsoncallback=?",
+
+	function(data){  
+			$('.result').html(data.content);
+	});
+//        var map = new google.maps.Map(document.getElementById("mapZone"), myOptions);
+//        var marker = new google.maps.Marker({
+//                position: latlng,
+//                map: map
+//        });
+//        var infowindow = new google.maps.InfoWindow();
+//        infowindow.setContent("You are here!");
+//        infowindow.setPosition(latlng);
+//        infowindow.open(map);
+}
+function getPositionError(error)
+{
+        switch (error.code) {
+                case error.TIMEOUT:
+                        alert(" 坐標定位逾時 ");
+                        break;
+                case error.PERMISSION_DENIED:
+                        alert(" 坐標定位失敗，優惠活動需開啟坐標定位。 ");
+                        break;
+                case error.POSITION_UNAVAILABLE:
+                        alert(" 坐標定位失敗，優惠活動需開啟坐標定位。 ");
+                        break;
+        }
+}
+
+ 
+ 
+</script>
+
+
+  
+    
+   
+</head>
+<body>
+
+<div data-role="page">
+		<div data-role="header" data-theme="b" data-position="fixed">
+		
+  
+	<h1>宏昶貿易有限公司</h1>
+		             <!--     -->
+	</div>
+ 
+<script type="text/javascript">
+
+$(document).ready(function() {
+// 圖片大小超過螢幕寬度就加上width:100%
+	//var postWidth = $(window).width();
+	$("img").lazyload({	effect : "fadeIn" });
+	$('#spec_div img').addClass('resize') ;
+	/*
+			$('#spec_div img').each(function() {
+					var imageWidth = this.width; 
+					if (imageWidth > postWidth) {
+							$(this).addClass('resize');
+					}  
+			});
+			*/
+});
+
+</script>
+<div data-role="content">
+ 	  
+	<div style="text-align: right"> 
+		<a href="javascript: fbs_click('http://www.justeat758.com/yellowpageMobile/product_470096.html', 'FAVORICH 可可製品')"><img src="images/fb_share.png" border="0"></a>
+	</div> 
+	<div class="ui-body ui-body-c"> 
+	<h3>產品</h3>  
+			<p>FAVORICH 可可製品</p>
+			<img src="images/product_470096.jpg" style="margin: 7px;">
+			<!--<img src="" style="margin: 7px;">-->
+			<p><strong>電洽</strong></p>
+			<div id="spec_div" style="width:100%; "><p><span lang="EN-US"><strong>#FAVORICH 可可系列產品簡介<br /><img src="http://www.justeat758.com/fb156956cebfb4381b8ca6e1ec610f02.jpg" alt="" /><br /></strong></span></p>
+<p>&nbsp;</p>
+<div><span style="color: #993300;"><span lang="EN-US">馬來西亞源宗集團</span><span lang="EN-US">(GUAN CHONG BERHAD)</span><span lang="EN-US">可可事業部，為東南亞最大的可可製造商，以</span><span lang="EN-US">FAVORICH</span><span lang="EN-US">品牌，製造並銷售高品質可可相關製品。從可可膏</span><span lang="EN-US">(Cocoa Liquor/Cocoa Mass)</span><span lang="EN-US">、可可脂</span><span lang="EN-US">(Cocoa Butter)</span><span lang="EN-US">到各種規格的可可粉</span><span lang="EN-US">(Cocoa Powder)</span><span lang="EN-US">均有供應。</span></span></div>
+<div>&nbsp;</div>
+<div><span style="color: #993300;"><span lang="EN-US">可可粉系列涵蓋：中脂</span><span lang="EN-US">(low fat)/</span><span lang="EN-US">高脂</span><span lang="EN-US">(high fat)</span><span lang="EN-US">、天然粉、低鹼化、高鹼化及黑色可可粉。</span></span></div>
+<div>&nbsp;</div>
+<div><span style="color: #993300;" lang="EN-US">&nbsp;</span></div>
+<div>&nbsp;</div>
+<div><span style="color: #993300;"><strong><span lang="EN-US">可可粉包裝：</span></strong><span lang="EN-US">25kg/</span><span lang="EN-US">袋</span></span></div>
+<div>&nbsp;</div>
+<div><span style="color: #993300;"><span lang="EN-US"><strong>可可脂、可可膏包裝</strong>：</span><span lang="EN-US">25kg/</span><span lang="EN-US">箱<br /><br /></span></span></div>
+<p><span lang="EN-US"><span style="color: #993300;" lang="EN-US">對以上商品有興趣的廠家或採購人員，請不吝致電本公司業務部門詢問。</span><br /></span></p>
+<p><br />&nbsp;</p></div>
+ 	</div> 
+	  	 
+</div>
+<style type="text/css">
+
+#preferent .ui-icon { background:  url(images/preferent.png) 50% 50% no-repeat;  background-size: 31px 22px; height:22px; width:31px; margin-left:-15px; -moz-border-radius:0; }
+#base .ui-icon { background:  url(images/base.png) 50% 50% no-repeat;  background-size: 31px 22px; height:22px; width:31px; margin-left:-15px; -moz-border-radius:0; }
+#products .ui-icon { background:  url(images/products.png) 50% 50% no-repeat;  background-size: 31px 22px; height:22px; width:31px; margin-left:-15px; -moz-border-radius:0; }
+#contact .ui-icon { background:  url(images/contact.png) 50% 50% no-repeat;  background-size: 31px 22px; height:22px; width:31px; margin-left:-15px; -moz-border-radius:0; }
+
+</style>
+
+<script type='text/javascript' src='https://toolkit.url.com.tw/counter/tracer.php?token=Naz2ka44M3z0Udg1a9HbR906c9Dbofv1L130dd3ed6y750q2d2X4N607ZaW5Fc0dNzU4LmNvbS95ZWxsb3dwYWdlTW9iaWxlLw=='></script> 
+<div data-role="footer" data-theme="b" data-position="fixed">
+	<div data-role="navbar">
+	<ul>
+		<li><a href="preferent.html" id="preferent" data-icon="custom" >優惠活動</a></li>
+		<li><a href="info.html" id="base" data-icon="custom">關於我們 About HCT</a></li>
+				<li><a href="index.html" id="products" data-icon="custom" data-ajax="false">產品 Products</a></li>
+				<li><a href="contact.html" id="contact" data-icon="custom" data-rel="dialog" data-transition="pop">聯絡我們</a></li>
+	</ul>
+	</div>
+</div>
+ 	</div>
+</body>
+</html>

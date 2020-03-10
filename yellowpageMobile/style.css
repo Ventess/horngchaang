@@ -1,0 +1,4 @@
+@charset "utf-8";
+/* CSS Document */
+img.resize{ max-width: 100%;height:auto;}
+.ui-content img{max-width:100%;height:auto;}

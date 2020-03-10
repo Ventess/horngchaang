@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  =============================
+  智邦生活館 - 輕鬆架站 RSS 2.0
+  =============================
+  產生器資訊
+  應用程式: Foresight v0.3.2 RSS 2.0 Generator
+  更新日期: Mar 27 16:41 CST 2007
+-->
+<rss version="2.0">
+  <channel>
+    <!-- 公司名稱 -->
+    <title>宏昶貿易有限公司</title>
+    <!-- 公司黃頁網站 -->
+    <link>http://www.justeat758.com/yellowpage/</link>
+    <!-- 公司簡介 -->
+    <description>宏昶貿易有限公司創立於西元1994年，基於對於食品原物料的愛好，廣泛的引進各國有益健康的食品原物料，經過長期的市場經營，我們精簡了我們的經營範疇，只為了聚焦於我們所擅長與專精的產品領域，時至今日，我們將我們的經營範疇鎖定在可可相關的原物料進口與服務。&amp;nbsp;或許，品牌是一般消費大眾對於產品的第一印象，對宏昶貿易有限公司而言，我們不只是要找尋值得信賴的品牌，更重要的是，找尋對於客戶、市場、消費者均能夠獲益的產品，”SearchingGoodForYou”，這是我們的信念，更是長期以來我們願意不斷強化專業知識以提供更有價值的服務給我們的客戶，我們堅持為各位找尋最適切的產品，以期能夠在品質、服務、成本、食品安全各方面提供一個最平衡的產品服務供應商。想知道更多有關可可與巧克力的資訊？歡迎到【宏昶貿易官方部落格】&amp;nbsp;了解更多喔！</description>
+    <!-- 文件語言 -->
+    <language>zh</language>
+    <!-- 版權說明 -->
+    <copyright>智邦生活館 版權所有</copyright>
+    <!-- 管理工具 -->
+    <managingEditor>Foresight v0.3.2 RSS 2.0 Generator</managingEditor>
+    <!-- 管理者 -->
+    <webMaster>智邦生活館 網站代管</webMaster>
+    <!-- 出版日期 -->
+    <pubDate>Fri, 16 Jun 2017 09:23:40 CST</pubDate>
+    <!-- 最後製造日期 -->
+    <lastBuildDate>Fri, 16 Jun 2017 09:23:40 CST</lastBuildDate>
+    <!-- 產生器 -->
+    <generator>智邦生活館 版權所有</generator>
+    <!-- 存活時間, 這個頻道會被快取幾分鐘 -->
+    <ttl>10080</ttl>
+	 <!-- 分類列表 -->
+	    <!-- 每一個項目的內容 -->
+        <item>
+      <!-- 項目標題 -->
+      <title>最新消息改版通知</title>
+      <!-- 發佈時間 -->
+      <pubDate>Tue, 21 Oct 2014 11:22:39 +0800</pubDate>
+      <!-- 項目分類 -->
+      <category></category>
+	  <!-- 項目價錢 -->
+      <price></price>
+	  <!-- 項目優惠價 -->
+      <sprice></sprice>
+      <!-- 項目內容 -->
+      <description>由於網頁版面設計的限制，使得我們在公告或分享訊息的作業上，無法作到即時互動，在閱讀上也不夠友善，因此，我們決定將所有最新消息的訊息，建立一個官方部落格，並藉由連結方式發布，關注我們的朋友，可從以下連結網址閱讀，或在左側欄位中，點選「宏昶貿易官方部落格」，就能收到更多我們要跟各位分享的資訊喔！Bestregards,DavidChenHORNGCHAANGTRADINGCO.,LTD.</description>
+	  <!-- 項目簡介 -->
+      <intro></intro>
+      <!-- 項目連結 -->
+      <link>http://horngchaang.blogspot.com</link>
+	  <!-- 自訂連結 -->
+	  <href>http://horngchaang.blogspot.com</href>
+	  <hrefname></hrefname>
+      <!-- 唯一識別名稱 -->
+      <guid>http://www.justeat758.com/yellowpage/hot_114717.html</guid>
+      <!-- 商品圖 -->
+          </item>
+    
+  </channel>
+</rss>

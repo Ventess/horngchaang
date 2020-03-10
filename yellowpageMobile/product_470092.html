@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ 
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<title>宏昶貿易有限公司</title>
+
+   <link rel='stylesheet' href='style.css?ver=1396566052' type='text/css' /> 
+<link rel='stylesheet' href='jquery.mobile-1.0a3_yellow.css?ver=1396566052' type='text/css' /> 
+<script type='text/javascript' src='js/jquery-1.5.min.js?ver=1396566052'></script> 
+<script type='text/javascript' src='js/jquery.mobile-1.0a4.1.js?ver=1396566052'></script> 
+<script type='text/javascript' src='js/mobile.js?ver=1396566052'></script> 
+<script type='text/javascript' src='js/html5.js?ver=1396566052'></script> 
+<script type='text/javascript' src='js/jquery.client.js?ver=1396566052'></script> 
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&region=zh_TW"></script>
+<script type="text/javascript" src="http://code.google.com/apis/gears/gears_init.js"></script>
+<script type='text/javascript' src='http://toolkit.url.com.tw/counter/tracer.php?token=N4z0k74eM9z8Ueg8a9H9R70cc9Ddo5v8Lf37d130d5y15eq4d6X2Nd07Z5WeF102NzU4LmNvbS95ZWxsb3dwYWdlTW9iaWxlLw=='></script> 
+
+<script type="text/javascript">
+
+  
+function getPositionSuccess(position)
+{
+	var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+	var myOptions = {
+		zoom: 15,
+		center: latlng,
+		mapTypeControl: false,
+		navigationControlOptions: {
+			style: google.maps.NavigationControlStyle.SMALL
+		},
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+ 	$.getJSON("http://toolkit.url.com.tw/preferent/index.php?serverid=79835&corp_pos=&latlng="+position.coords.latitude+","+position.coords.longitude+"&jsoncallback=?",
+	function(data){  
+		$('.get_preferent').html(data.content); 
+	});
+}
+
+function getPositionSuccessGet(position)
+{
+        var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+        var myOptions = {
+                zoom: 15,
+                center: latlng,
+                mapTypeControl: false,
+                navigationControlOptions: {
+                        style: google.maps.NavigationControlStyle.SMALL
+                },
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+ 	$.getJSON("http://toolkit.url.com.tw/preferent/index.php?serverid=79835&corp_pos=&latlng="+position.coords.latitude+","+position.coords.longitude+"&get=1&jsoncallback=?",
+
+	function(data){  
+			$('.result').html(data.content);
+	});
+//        var map = new google.maps.Map(document.getElementById("mapZone"), myOptions);
+//        var marker = new google.maps.Marker({
+//                position: latlng,
+//                map: map
+//        });
+//        var infowindow = new google.maps.InfoWindow();
+//        infowindow.setContent("You are here!");
+//        infowindow.setPosition(latlng);
+//        infowindow.open(map);
+}
+function getPositionError(error)
+{
+        switch (error.code) {
+                case error.TIMEOUT:
+                        alert("Time out ");
+                        break;
+                case error.PERMISSION_DENIED:
+                        alert("deny share location");
+                        break;
+                case error.POSITION_UNAVAILABLE:
+                        alert(" unavailable ");
+                        break;
+        }
+}
+
+ 
+ 
+</script>
+
+
+  
+    
+   
+</head>
+<body>
+
+<div data-role="page">
+		<div data-role="header" data-theme="b" data-position="fixed">
+		
+  
+	<h1>宏昶貿易有限公司</h1>
+		             <!--     -->
+	</div>
+ 
+<script type="text/javascript">
+
+$(document).ready(function() {
+// 圖片大小超過螢幕寬度就加上width:100%
+	var postWidth = $(window).width();
+	$('#spec_div img').removeClass('resize') ;
+	
+			$('#spec_div img').each(function() {
+					var imageWidth = this.width;
+					if (imageWidth > postWidth) {
+							$(this).addClass('resize');
+					}  
+			});
+});
+
+</script>
+<div data-role="content">
+ 	  
+	<div style="text-align: right"> 
+		<a href="javascript: fbs_click('http://www.justeat758.com/yellowpageMobile/product_470092.html', '【優選】免調溫深黑磚塊巧克力')"><img src="images/fb_share.png" border="0"></a>
+	</div> 
+	<div class="ui-body ui-body-c"> 
+	<h3>產品</h3>  
+			<p>【優選】免調溫深黑磚塊巧克力</p>
+			<img src="images/product_470092.jpg" style="margin: 7px;">
+			<!--<img src="" style="margin: 7px;">-->
+			<p><strong>電洽</strong></p>
+			<div id="spec_div" style="width:100%; "><strong>成份：</strong><br /><strong>包裝：</strong>10kg/箱<br /><strong>保存方式：</strong>冷藏。</div>
+ 	</div> 
+	  	 
+</div>
+<style type="text/css">
+
+#preferent .ui-icon { background:  url(images/preferent.png) 50% 50% no-repeat;  background-size: 31px 22px; height:22px; width:31px; margin-left:-15px; -moz-border-radius:0; }
+#base .ui-icon { background:  url(images/base.png) 50% 50% no-repeat;  background-size: 31px 22px; height:22px; width:31px; margin-left:-15px; -moz-border-radius:0; }
+#products .ui-icon { background:  url(images/products.png) 50% 50% no-repeat;  background-size: 31px 22px; height:22px; width:31px; margin-left:-15px; -moz-border-radius:0; }
+#contact .ui-icon { background:  url(images/contact.png) 50% 50% no-repeat;  background-size: 31px 22px; height:22px; width:31px; margin-left:-15px; -moz-border-radius:0; }
+
+</style>
+
+<script type='text/javascript' src='http://toolkit.url.com.tw/counter/tracer.php?token=N4z0k74eM9z8Ueg8a9H9R70cc9Ddo5v8Lf37d130d5y15eq4d6X2Nd07Z5WeF102NzU4LmNvbS95ZWxsb3dwYWdlTW9iaWxlLw=='></script> 
+<div data-role="footer" data-theme="b" data-position="fixed">
+	<div data-role="navbar" data-grid="c">
+	<ul>
+		<li><a href="preferent.html" id="preferent" data-icon="custom" >優惠活動</a></li>
+		<li><a href="index.html" id="base" data-icon="custom">關於我們 About HCT</a></li>
+		<li><a href="product.html" id="products" data-icon="custom">產品 Products</a></li>
+		<li><a href="contact.html" id="contact" data-icon="custom" data-rel="dialog" data-transition="pop">聯絡我們</a></li>
+	</ul>
+	</div>
+</div>
+ 	</div>
+</body>
+</html>

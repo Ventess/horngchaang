@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ 
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<title>宏昶貿易有限公司</title>
+
+   <link rel='stylesheet' href='style.css?ver=1497576220' type='text/css' /> 
+<link rel='stylesheet' href='jquery.mobile-1.0a3_orange.css?ver=1497576220' type='text/css' /> 
+<script type='text/javascript' src='js/jquery-1.5.min.js?ver=1497576220'></script> 
+<script type='text/javascript' src='js/jquery.mobile-1.0a4.1.js?ver=1497576220'></script> 
+<script type='text/javascript' src='js/mobile.js?ver=1497576220'></script> 
+<script type='text/javascript' src='js/html5.js?ver=1497576220'></script> 
+<script type='text/javascript' src='js/jquery.client.js?ver=1497576220'></script> 
+
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true&region=zh_TW"></script>
+<script type="text/javascript" src="js/gears_init.js?ver=1497576220"></script>
+<script type='text/javascript' src='https://toolkit.url.com.tw/counter/tracer.php?token=Naz2ka44M3z0Udg1a9HbR906c9Dbofv1L130dd3ed6y750q2d2X4N607ZaW5Fc0dNzU4LmNvbS95ZWxsb3dwYWdlTW9iaWxlLw=='></script> 
+<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+<script type="text/javascript">
+
+  
+function getPositionSuccess(position)
+{
+	var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+	var myOptions = {
+		zoom: 15,
+		center: latlng,
+		mapTypeControl: false,
+		navigationControlOptions: {
+			style: google.maps.NavigationControlStyle.SMALL
+		},
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+ 	$.getJSON("https://toolkit.url.com.tw/preferent/index.php?serverid=79835&corp_pos=&latlng="+position.coords.latitude+","+position.coords.longitude+"&jsoncallback=?",
+	function(data){  
+		$('.get_preferent').html(data.content); 
+	});
+}
+
+function getPositionSuccessGet(position)
+{
+        var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+        var myOptions = {
+                zoom: 15,
+                center: latlng,
+                mapTypeControl: false,
+                navigationControlOptions: {
+                        style: google.maps.NavigationControlStyle.SMALL
+                },
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+ 	$.getJSON("http://toolkit.url.com.tw/preferent/index.php?serverid=79835&corp_pos=&latlng="+position.coords.latitude+","+position.coords.longitude+"&get=1&jsoncallback=?",
+
+	function(data){  
+			$('.result').html(data.content);
+	});
+//        var map = new google.maps.Map(document.getElementById("mapZone"), myOptions);
+//        var marker = new google.maps.Marker({
+//                position: latlng,
+//                map: map
+//        });
+//        var infowindow = new google.maps.InfoWindow();
+//        infowindow.setContent("You are here!");
+//        infowindow.setPosition(latlng);
+//        infowindow.open(map);
+}
+function getPositionError(error)
+{
+        switch (error.code) {
+                case error.TIMEOUT:
+                        alert(" 坐標定位逾時 ");
+                        break;
+                case error.PERMISSION_DENIED:
+                        alert(" 坐標定位失敗，優惠活動需開啟坐標定位。 ");
+                        break;
+                case error.POSITION_UNAVAILABLE:
+                        alert(" 坐標定位失敗，優惠活動需開啟坐標定位。 ");
+                        break;
+        }
+}
+
+ 
+ 
+</script>
+
+
+  
+    
+   
+</head>
+<body>
+
+<div data-role="page">
+		<div data-role="header" data-theme="b" data-position="inline">
+		
+  
+	<h1>宏昶貿易有限公司</h1>
+		             <!--     -->
+	</div>
+
+  
+	<div data-role="content" data-theme="c">
+		<h1>聯絡店家</h1>
+
+		<p>請選擇聯絡店家的方式：</p>
+
+		<a href="tel:07-341-9035" data-role="button" data-theme="d"><img src="images/phone.png" align=absmiddle>&nbsp;<span style="font-size: 22px;">通&nbsp;&nbsp;話</span></a> 		<a href="mailto:justeat758@gmail.com" data-role="button" data-theme="d"><img src="images/mail.png" align=absmiddle>&nbsp;<span style="font-size: 22px;">E-Mail</span></a> 					
+	</div>
+
+ 	
+
+	</div>
+</body>
+</html>
